@@ -109,7 +109,9 @@ if (foo == 1) {
 switch (foo) {
   case 1:
     System.out.println("foo is 1");
-    break; // If we don't include the break statement, this case will fallthrough to the next case (e.g. "foo is 1" and "foo is 2" would both be printed)
+    break; /* If we don't include the break statement,
+    this case will fallthrough to the next case 
+    (e.g. "foo is 1" and "foo is 2" would both be printed)*/
   case 2:
     System.out.println("foo is 2");
     break;
